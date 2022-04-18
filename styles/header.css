@@ -1,9 +1,9 @@
 .header {
   background-color: #2151a3;
-  background: radial-gradient(#1d1c53,rgb(101, 122, 227));
+  background: radial-gradient(rgb(101, 122, 227),#1d1c53);
   color: #fff;
   min-height: 300px;
-  margin-top: 5rem;
+  margin-top: 6rem;
 
 }
 

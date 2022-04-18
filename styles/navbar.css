@@ -1,10 +1,17 @@
 .navbar {
-  background: radial-gradient(#0660e6,#262626);
+  background: radial-gradient(#3177df,#2d0000);
   color: #fff;
-  height: 5rem;
+  height: 6rem;
   width: 100%;
   position: fixed;
   top: 0; 
+}
+.navbar .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 80%;
+
 }
 
 .navbar .logo {
@@ -12,35 +19,20 @@
   font-weight: bold;
 }
 
-.navbar .logo span{
-  font-size: 1.8rem;
-  font-weight: bold;
-}
-
-
 .navbar a {
   color: #fff;
   text-decoration: none;
   font-size: 1.2rem;
   /* font-weight: bold; */
 }
-
 .navbar a:hover {
   color: lightblue;
-}
-
-.navbar .container {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  height: 100%;
-
+  cursor: hand ;
 }
 
 .navbar ul {
   display: flex;
 }
-
 .navbar ul li {
-  margin-left: 20px;
+  margin-left: 1rem;
 }
