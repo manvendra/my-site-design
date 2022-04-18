@@ -1,0 +1,46 @@
+.navbar {
+  background: radial-gradient(#0660e6,#262626);
+  color: #fff;
+  height: 5rem;
+  width: 100%;
+  position: fixed;
+  top: 0; 
+}
+
+.navbar .logo {
+  font-size: 1.8rem;
+  font-weight: bold;
+}
+
+.navbar .logo span{
+  font-size: 1.8rem;
+  font-weight: bold;
+}
+
+
+.navbar a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 1.2rem;
+  /* font-weight: bold; */
+}
+
+.navbar a:hover {
+  color: lightblue;
+}
+
+.navbar .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+
+}
+
+.navbar ul {
+  display: flex;
+}
+
+.navbar ul li {
+  margin-left: 20px;
+}
