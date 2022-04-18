@@ -6,8 +6,9 @@
     }
   
     .boxes .container {
-      display: block;
+      flex-direction: column;
       text-align: center;
+      justify-content: space-between;
     }
     
   }
