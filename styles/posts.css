@@ -24,8 +24,8 @@
     width: 350px;
     height: 350px;
 }
-.post code{
-    text-overflow: ellipsis;
+.post .postContent{
+   text-overflow: ellipsis;
 }
 
 .post i {
